@@ -127,3 +127,7 @@ font-family: 'Open Sans', sans-serif; */
   line-height: 100px;
   text-transform: capitalize;
 }
+
+.page__scroll::after {
+  content: " \1F853";
+}
