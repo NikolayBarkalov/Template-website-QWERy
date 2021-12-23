@@ -7,3 +7,68 @@
 ::after {
   box-sizing: inherit;
 }
+
+body {
+  --white-color: #ffffff;
+  --back-color: #000000;
+  --light-brown-color: #ffd1a0;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(../img/background.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Open Sans', sans-serif; */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: var(--white-color);
+  margin-top: 58px;
+  margin-left: 85px;
+}
+
+/* Start stylesheet logo */
+.logo__link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: inherit;
+}
+/* End stylesheet logo */
+
+/* Start stylesheet Nav - menu website */
+.menu__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu__item + .menu__item {
+  margin-left: 50px;
+}
+
+.menu__item > a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.1em;
+  color: inherit;
+  cursor: pointer;
+}
+/* END stylesheet Nav - menu website */
+
+/* Start search */
+.search-form {
+  margin-right: 84px;
+  opacity: 0.6;
+}
+
+.search-form__button {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  font-size: 1.1rem;
+  line-height: 23px;
+  cursor: pointer;
+}
+/* End search */
