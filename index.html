@@ -37,16 +37,16 @@
     <section class="page">
       <p class="page__text">explore the Nature Beauty</p>
       <h1 class="page__title"><br>Wonderful Indonesia</h1>
-      <p class="page__scroll">Scroll down</p>
+      <a href="#anchor" class="page__scroll"><p class="page__scroll-arrow">Scroll down</p></a>
     </section>
 
-    <article class="features">
+    <article id="anchor" class="features">
       <figure>
         <img class="features__img" src="./img/holiday.jpg" alt="Woman, ocean, mountains">
         <figcaption class="hidden">Woman looking at the ocean, standing on the mountain</figcaption>
       </figure>
       <div class="features-text__wrapper">
-        <p class="features__text">EAST NUSA TENGGARA</p>
+        <p  class="features__text">East nusa tenggara</p>
         <h2 class="features__title">Have you enjoyed your holiday?</h2>
         <p class="features__desc">You will be amazed if you take part in this sailing Komodo island tour package. So it
           is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine
@@ -54,16 +54,19 @@
         <a href="#" class="main__link">read more</a>
       </div>
     </article>
-
-
     <article class="slider">
-
-      <figure>
-        <img class="slider__img" src="./img/bromo.jpg" alt="Mountains at sunset">
-        <figcaption class="hidden">Mountains at sunset, foot in the fog</figcaption>
-      </figure>
-
-      <div class="slider__wrapepr">
+      <div class="item">
+        <img src="./img/slider/1.jpg" alt="Mountains at sunset">
+      </div>
+      <div class="item">
+        <img src="./img/slider/2.jpg" alt="Mountains in asia">
+      </div>
+      <div class="item">
+        <img src="./img/slider/3.jpg" alt="Woman, ocean, mountains"">
+      </div>
+      <a class="previous" onclick="previousSlide()">&#10094;</a>
+      <a class="next" onclick="nextSlide()">&#10095;</a>
+      <div class="slider__text-wrapepr">
         <p class="slider__text">Bromo</p>
         <h2 class="slider__title">Steady your steps, we will climb together!</h2>
         <p class="slider__disc">Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount
@@ -71,10 +74,12 @@
           enjoying the dim twilight from the Bromo ridge is an unforgettable experience when visiting Bromo.</p>
         <a href="#" class="main__link">read more</a>
       </div>
+
     </article>
 
   </main>
 
+  <script src="./slider.js"></script>
 </body>
 
 </html>
