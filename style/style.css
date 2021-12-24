@@ -314,3 +314,54 @@ font-family: 'Open Sans', sans-serif; */
 .hidden {
   display: none;
 }
+
+.footer {
+  margin: 0 auto;
+  max-width: 1460px;
+}
+
+.advertisement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white-color);
+  border-bottom: 1px solid #979797;
+  padding-bottom: 35px;
+}
+
+.footer-logo__link {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--white-color)
+}
+
+.footer-logo__link:hover {
+  color: var(--hover-color)
+}
+
+.advertisement__wrapepr {
+  display: flex;
+  align-items: center;
+}
+
+.advertisement__wrapepr > p {
+  margin-right: 55px;
+}
+
+.advertisement__wrapepr > a {
+  text-decoration: none;
+  color: var(--black-color);
+  background-color: var(--hover-color);
+  padding: 1.5em 4.3em;
+  border-radius: 0.5em;
+  font-weight: bold;
+}
+
+.advertisement__wrapepr > a:hover {
+  background-color: var(--white-color);
+  color: var(--slogan-color);
+}
