@@ -486,3 +486,31 @@ font-family: 'Open Sans', sans-serif; */
 .social-horizon > a:last-child {
   padding-right: 0;
 }
+/* end footer */
+
+/* start social */
+.social-vertical {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 360px;
+  left: 85px;
+  cursor: default;
+}
+
+.social-vertical > p {
+  font-weight: 600;
+  font-size: 1.125em;
+  line-height: 1.5;
+  writing-mode: vertical-rl;
+  margin-bottom: 20px;
+}
+
+.social-vertical > a {
+  margin-bottom: 20px;
+}
+
+.social-vertical >a:last-child {
+  margin-bottom: 0;
+}
